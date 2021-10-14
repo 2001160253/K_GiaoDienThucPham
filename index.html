@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.4-web/css/all.min.css">
+</head>
+<body>
+    <div class="app">
+    <!--Header-->
+        <header class="header">
+            <div class="grid">
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item  header__navbar-item-separate">Chào mừng bạn đến với KTDFood</li>
+                        <li class="header__navbar-item">
+                            <span class="header__navbar-item-title--no-pointer">Kết nối</span>
+                            <a href="" class="header__navbar-icon-link"><i class="header__navbar-icon fab fa-facebook"></i></a>
+                            <a href="" class="header__navbar-icon-link"><i class="header__navbar-icon fab fa-instagram"></i></a>
+
+                        </li>
+                    </ul>
+        
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-notifi">
+                            <a href="#" class="header__navbar-item-link"><i class="header__navbar-icon fas fa-bell"></i>
+                            Thông báo
+                            </a>
+                            <div class="header__notifi">
+                                <header class="header__notifi-header">
+                                    <h3>Thông báo mới</h3>
+                                </header>
+                                <ul class="header__notifi-list">
+                                    <li class="header__notifi-item">
+                                        <a href="" class="header__notifi-link">
+                                            <img src="https://cdn.tgdd.vn/Products/Images/8785/226904/bhx/ca-rot-da-lat-tui-500g-202103031620580264_300x300.jpg" alt="anh" class="header__notifi-img">
+                                            <div class="header__notifi-info">
+                                                <span class="header__notifi-name">Cà rốt baby</span>
+                                                <span class="header__notifi-descreption">Siêu giảm giá</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                     <li class="header__notifi-item header__notifi-item--viewed">
+                                        <a href="" class="header__notifi-link">
+                                            <img src="https://bizweb.dktcdn.net/thumb/large/100/435/899/products/f301c3fc-56cb-493e-b545-20431559c73a.jpg?v=1631497084000" alt="anh" class="header__notifi-img">
+                                            <div class="header__notifi-info">
+                                                <span class="header__notifi-name">Chanh chua baby</span>
+                                                <span class="header__notifi-descreption">Siêu giảm giá</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                     <li class="header__notifi-item">
+                                        <a href="" class="header__notifi-link">
+                                            <img src="https://bizweb.dktcdn.net/thumb/large/100/435/899/products/62be5a1d-4d7f-4c69-92fc-0b8506bcd8d0.jpg?v=1630325267000" alt="anh" class="header__notifi-img">
+                                            <div class="header__notifi-info">
+                                                <span class="header__notifi-name">Cà chua baby</span>
+                                                <span class="header__notifi-descreption">Siêu giảm giá</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="header__notifi-footer">
+                                    <a href="" class="header__notifi-footer-btn">Xem tất cả</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                                <a href="#" class="header__navbar-item-link"><i class="header__navbar-icon fas fa-question"></i>Trợ giúp</a>
+                        </li>
+                        <li class="header__navbar-item header__navbar-item-bold header__navbar-item-separate">
+                            Đăng ký
+                        </li>
+                        <li class="header__navbar-item header__navbar-item-bold">
+                            Đăng nhập
+                        </li>
+                    </ul>
+                </nav>
+
+                <!--header search-->
+                <div class="header-with-search">
+                    <div class="header__logo">
+                        <img src="https://bizweb.dktcdn.net/100/435/899/themes/833402/assets/logo.png?1633495597173" alt="anh" class="header__logo-img">
+                    </div>
+
+                    <div class="header__search">
+                        <input type="text" class="header__search-input" placeholder="Tìm kiếm sản phẩm">
+                        <!--<button class="header__search-btn">
+                            <i class="header__search-btn-icon fas fa-search"></i>
+                        </button>-->
+                    </div>
+                    <div class="header__cart">
+                        <i class="header__cart-icon fas fa-shopping-cart"></i>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+    <!--container-->
+        <div class="app_container">
+           <div class="grid__row app_content">
+           
+                <div class="grid__column-2">
+                
+                    <nav class="category">
+                        <h3 class="category__heading">
+                            <i class="category__heading-icon fas fa-list"></i>
+                            Danh mục
+                        </h3>
+                        <ul class="category-list">
+                            <li class="category-item category-item--active">
+                                <a href="" class="category-item__link">Rau củ</a>
+                            </li>
+                            <li class="category-item">
+                                <a href="" class="category-item__link">Trái cây</a>
+                            </li>
+                            <li class="category-item">
+                                <a href="" class="category-item__link">Thịt, cá</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+
+                <div class="grid__column-10">
+
+                    <div class="home-filter">
+                            <span class="home-filter__label">Sắp xếp theo</span>
+                            <button class="home-filter__btn btn">Phổ biến</button>
+                            <button class="home-filter__btn btn btn--primary">Mới nhất</button>
+                            <button class="home-filter__btn btn">Bán chạy</button>
+
+                            <div class="select-input">
+                                <span class="select-input__label">Giá</span>
+                                <i class="select-input__icon fas fa-angle-down"></i>
+                                <ul class="select-input__list">
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Giá: Thấp đến cao</a>                                    
+                                    </li>
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Giá: Cao đến thấp</a>                                    
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+
+                            <div class="home-filter__page">
+                                <span class="home-filter__page-num">
+                                    <span class="home-filter__page--current">1</span>/5
+                                </span>
+
+                                <div class="home-filter__page-control">
+                                    <a href="" class="home-filter__page-btn home-filter__page-btn--disable">
+                                        <i class="home-filter__page-icon fas fa-angle-left"></i>
+                                    </a>
+
+                                    <a href="" class="home-filter__page-btn">
+                                        <i class="home-filter__page-icon  fas fa-angle-right"></i>
+                                    </a>
+                                        
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class="home-product">
+                        <div class="grid__row">
+                           <div class="grid__column-2-4">
+                                <a class="home-product-item" href="#">
+                                    <div class="home-product-item__img" style="background-image: url(https://bizweb.dktcdn.net/thumb/large/100/435/899/products/6c94feca-4027-4b94-a735-48c5cb74d8e1.jpg?v=1630325118000);"></div>
+                                    <div class="home-product-item__name">Xà lách Carol</div>
+                                    <div class="home-product-item__price">
+                                        <span class="home-product-item__price-old">19.000vnđ</span>
+                                        <span class="home-product-item__price-current">15.000vnđ</span>
+                                    </div>
+                                    <div class="home-product-item__action">
+                                        <span class="home-product-item__like home-product-item__like--liked">
+                                            <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                            <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                        </span>
+                                        
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            Mua nhiều
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <div class="home-product-item__sale-off-percent">10%</div>
+                                            <div class="home-product-item__sale-off-label">GIẢM</div>
+                                        </div>
+                                    </div>
+                                </a>                            
+                           </div>
+                           <div class="grid__column-2-4">
+                                <a class="home-product-item" href="#">
+                                    <div class="home-product-item__img" style="background-image: url(https://bizweb.dktcdn.net/thumb/grande/100/435/899/products/f301c3fc-56cb-493e-b545-20431559c73a.jpg?v=1631497084283);"></div>
+                                    <div class="home-product-item__name">Cam sành</div>
+                                    <div class="home-product-item__price">
+                                        <span class="home-product-item__price-old">30.000vnđ</span>
+                                        <span class="home-product-item__price-current">27.000vnđ</span>
+                                    </div>
+                                    <div class="home-product-item__action">
+                                        <span class="home-product-item__like home-product-item__like--liked">
+                                            <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                            <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                        </span>
+                                        
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            Mua nhiều
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <div class="home-product-item__sale-off-percent">10%</div>
+                                            <div class="home-product-item__sale-off-label">GIẢM</div>
+                                        </div>
+                                    </div>
+                                </a>                            
+                           </div>
+                            <div class="grid__column-2-4">
+                                <a class="home-product-item" href="#">
+                                    <div class="home-product-item__img" style="background-image: url(https://cdn.tgdd.vn/Products/Images/8785/233908/bhx/ot-chuong-do-tui-300g-202101271558404495_300x300.jpg);"></div>
+                                    <div class="home-product-item__name">Ớt chuông đỏ</div>
+                                    <div class="home-product-item__price">                                      
+                                        <span class="home-product-item__price-current">26.000vnđ</span>
+                                    </div>
+                                    <div class="home-product-item__action">
+                                        <span class="home-product-item__like home-product-item__like--liked">
+                                            <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                            <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                        </span>
+                                        
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            Mua nhiều
+                                        </div>
+                                    </div>
+                                </a>                            
+                            </div>
+                            <div class="grid__column-2-4">
+                                <a class="home-product-item" href="#">
+                                    <div class="home-product-item__img" style="background-image: url(https://cdn.tgdd.vn/Products/Images/8785/222879/bhx/ca-tim-tui-500g-202103031637555178_300x300.jpg);"></div>
+                                    <div class="home-product-item__name">Cà tím túi 500g</div>
+                                    <div class="home-product-item__price">
+                                        <span class="home-product-item__price-current">25.500vnđ</span>
+                                    </div>
+                                    <div class="home-product-item__action">
+                                         <span class="home-product-item__like home-product-item__like--liked">
+                                            <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                            <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                        </span>
+                                    </div>
+                                </a>                            
+                            </div>
+                            <div class="grid__column-2-4">
+                                <a class="home-product-item" href="#">
+                                    <div class="home-product-item__img" style="background-image: url(https://cdn.tgdd.vn/Products/Images/8785/222863/bhx/dua-leo-baby-khay-500g-202103031639266204_300x300.jpg);"></div>
+                                    <div class="home-product-item__name">Dưa leo baby khay 500g</div>
+                                    <div class="home-product-item__price">
+                                        <span class="home-product-item__price-current">23.000vnđ</span>
+                                    </div>
+                                    <div class="home-product-item__action">
+                                         <span class="home-product-item__like home-product-item__like--liked">
+                                            <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                            <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                        </span>
+                                    </div>
+                                </a>                            
+                            </div>
+                            <div class="grid__column-2-4">
+                                <a class="home-product-item" href="#">
+                                    <div class="home-product-item__img" style="background-image: url(https://cdn.tgdd.vn/Products/Images/8785/222881/bhx/bap-my-2-trai-202103031637502545_300x300.jpg);"></div>
+                                    <div class="home-product-item__name">Bắp mỹ giòn ngọt túi 2 trái</div>
+                                    <div class="home-product-item__price">
+                                        <span class="home-product-item__price-current">17.000vnđ</span>
+                                    </div>
+                                    <div class="home-product-item__action">
+                                         <span class="home-product-item__like home-product-item__like--liked">
+                                            <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                            <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                        </span>
+                                    </div>
+                                </a>                            
+                            </div>
+                            <div class="grid__column-2-4">
+                                <a class="home-product-item" href="#">
+                                    <div class="home-product-item__img" style="background-image: url(https://cdn.tgdd.vn/Products/Images/8785/226904/bhx/ca-rot-da-lat-tui-500g-202103031620580264_300x300.jpg);"></div>
+                                    <div class="home-product-item__name">Cà rốt đà lạt 500g</div>
+                                    <div class="home-product-item__price">
+                                        <span class="home-product-item__price-current">15.00vnđ</span>
+                                    </div>
+                                    <div class="home-product-item__action">
+                                         <span class="home-product-item__like home-product-item__like--liked">
+                                            <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                            <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                        </span>
+                                    </div>
+                                </a>                            
+                            </div>
+                            <div class="grid__column-2-4">
+                                <a class="home-product-item" href="#">
+                                    <div class="home-product-item__img" style="background-image: url(https://cdn.tgdd.vn/Products/Images/8820/227717/bhx/gia-dau-xanh-tui-300g-202101192310574776_300x300.png);"></div>
+                                    <div class="home-product-item__name">Giá mầm đậu xanh túi 300g</div>
+                                    <div class="home-product-item__price">
+                                        <span class="home-product-item__price-current">13.000vnđ</span>
+                                    </div>
+                                    <div class="home-product-item__action">
+                                        <span class="home-product-item__like home-product-item__like--liked">
+                                            <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                            <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                        </span>
+                                    </div>
+                                </a>                            
+                            </div>
+                            <div class="grid__column-2-4">
+                                <a class="home-product-item" href="#">
+                                    <div class="home-product-item__img" style="background-image: url(https://cdn.tgdd.vn/Products/Images/8785/220462/bhx/bau-sao-tui-500g-202103031643111128_300x300.jpg);"></div>
+                                    <div class="home-product-item__name">Bầu nguyên trái túi 500g</div>
+                                    <div class="home-product-item__price">
+                                        <span class="home-product-item__price-current">11.500vnđ</span>
+                                    </div>
+                                    <div class="home-product-item__action">
+                                        <span class="home-product-item__like home-product-item__like--liked">
+                                            <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                            <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                        </span>
+                                    </div>
+                                </a>                            
+                            </div>
+                            <div class="grid__column-2-4">
+                                <a class="home-product-item" href="#">
+                                    <div class="home-product-item__img" style="background-image: url(https://cdn.tgdd.vn/Products/Images/8785/220460/bhx/khoai-mo-tui-1kg-202103031643285988_300x300.jpg);"></div>
+                                    <div class="home-product-item__name">Khoai mỡ tím túi 1kg</div>
+                                    <div class="home-product-item__price">
+                                        <span class="home-product-item__price-current">47.000vnđ</span>
+                                    </div>
+                                    <div class="home-product-item__action">
+                                        <span class="home-product-item__like home-product-item__like--liked">
+                                            <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                            <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                        </span>
+                                    </div>
+                                </a>                            
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+           
+           </div>
+        </div>  
+
+
+    <!--footer-->
+        <div class="footer">
+
+        </div>
+    </div>
+</body>
+</html>
